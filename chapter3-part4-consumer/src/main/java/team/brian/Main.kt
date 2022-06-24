@@ -1,5 +1,8 @@
 package team.brian
 
+import team.brian.kafka.SimpleConsumer
+
 fun main(args: Array<String>) {
-    println("Hello, Kafka consumer!!")
+    val simpleConsumer = SimpleConsumer()
+    simpleConsumer.testConsumer()
 }
