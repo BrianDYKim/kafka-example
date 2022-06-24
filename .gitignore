@@ -2,3 +2,4 @@
 /.gradle/
 /chapter3-part4/build/
 /chapter3-part4/build/classes/java/main/
+/chapter3-part4/src/main/java/team/brian/kafka/KafkaInfo.kt
