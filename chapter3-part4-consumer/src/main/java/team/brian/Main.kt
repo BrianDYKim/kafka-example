@@ -1,8 +1,9 @@
 package team.brian
 
-import team.brian.kafka.SimpleConsumer
+import team.brian.kafka.AsyncCommitConsumer
+import team.brian.kafka.SyncCommitConsumer
 
 fun main(args: Array<String>) {
-    val simpleConsumer = SimpleConsumer()
-    simpleConsumer.testConsumer()
+    val asyncCommitConsumer = AsyncCommitConsumer()
+    asyncCommitConsumer.testConsumer2()
 }
