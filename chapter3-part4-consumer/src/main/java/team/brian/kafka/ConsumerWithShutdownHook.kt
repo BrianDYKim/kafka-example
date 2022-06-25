@@ -39,6 +39,7 @@ class ConsumerWithShutdownHook {
         // main process에 shutdown hook을 추가시켜서 shutdown시 취할 행동을 정의한다.
         // kill -term [PID] 를 통해서 shutdown hook을 발생시켜 안전한 종료가 가능하다. 혹은 정지 버튼을 눌러도 동작한다.
         Runtime.getRuntime().addShutdownHook(CustomShutdownThread(consumer))
+        // test topic의 0번 partition을 구독한다
         consumer.assign(listOf(TopicPartition(TOPIC_NAME, PARTITION_NUMBER)))
 
         try {
