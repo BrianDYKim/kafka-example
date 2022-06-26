@@ -2,4 +2,9 @@
 /.gradle/
 /chapter3-part4/build/
 /chapter3-part4/build/classes/java/main/
-/chapter3-part4/src/main/java/team/brian/kafka/KafkaInfo.kt
+/chapter3-part4-consumer/build/
+/chapter3-part4-consumer/build/classes/java/main/
+/chapter3-part4-admin/build/
+/chapter3-part4-admin/build/classes/java/main/
+/chapter3-part5-streams-admin/build/
+/chapter3-part5-streams-admin/build/classes/java/main/

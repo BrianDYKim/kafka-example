@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/chapter3-part4" />
             <option value="$PROJECT_DIR$/chapter3-part4-admin" />
             <option value="$PROJECT_DIR$/chapter3-part4-consumer" />
+            <option value="$PROJECT_DIR$/chapter3-part5-streams" />
           </set>
         </option>
       </GradleProjectSettings>
