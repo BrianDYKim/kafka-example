@@ -1,5 +1,8 @@
 package team.brian
 
+import team.brian.kafka.singleConsumerThread.ConsumerWithWorkerThread
+
 fun main(args: Array<String>) {
-    println("Hello, consuemr worker threads!!")
+    val consumer = ConsumerWithWorkerThread()
+    consumer.testConsumer()
 }
